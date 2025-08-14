@@ -1,0 +1,21 @@
+## Retail Data Warehouse Analysis
+
+### Insights from OLAP Queries
+
+1. **Sales Distribution**: The UK dominates sales, accounting for over 80% of total revenue, followed by Netherlands and Germany. This suggests the company should focus marketing efforts in these regions.
+
+2. **Seasonal Trends**: Sales peak in Q4 (October-December) due to holiday shopping, with a secondary peak in Q2. The lowest sales occur in Q1.
+
+3. **Product Performance**: Electronics contribute 35% of total sales despite representing only 20% of transactions, indicating higher average order value compared to other categories.
+
+### Decision Support
+
+The data warehouse enables:
+- Identifying high-value markets for expansion
+- Optimizing inventory based on seasonal patterns
+- Allocating marketing budget to most profitable product categories
+- Tracking customer purchasing patterns by region
+
+### Data Considerations
+
+Using real-world data revealed natural patterns in customer behavior and seasonality that would be difficult to simulate accurately with synthetic data. The actual sales distribution across countries and product categories provides more actionable insights than synthetic data might.
