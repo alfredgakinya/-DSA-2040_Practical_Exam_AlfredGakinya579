@@ -19,7 +19,13 @@ retail_data_warehouse/
 1. Data Warehouse Design
 Star Schema: Implemented with one fact table (SalesFact) and four dimension tables (CustomerDim, ProductDim, TimeDim, LocationDim)
 
-Schema Choice: Star schema selected for query performance and simplicity
+Schema Choice: I chose star schema over snowflake because:
+
+Simpler queries with fewer joins, better for analytical queries
+
+Better performance for read-heavy operations common in retail analytics
+
+Easier to understand and maintain for business users
 
 SQL Implementation: Complete CREATE TABLE statements for all tables
 
